@@ -30,8 +30,7 @@ The dependencies will take some minutes to install.
 ```
 gem 'sqlite3'
 ```
-
-with 
+  with 
 
 ```
 gem 'sqlite3', '1.3.13'
