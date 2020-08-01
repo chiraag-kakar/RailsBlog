@@ -46,6 +46,24 @@ bundle install
 bundle update
 ```
 
+### Activating the Server :
+The server can be activated by any one of the following commands :
+```
+rails server -b $IP -p $PORT
+```
+*or*
+
+```
+rails server
+```
+*or*
+
+```
+rails s
+```
+
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
