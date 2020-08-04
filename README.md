@@ -11,9 +11,9 @@ A Blogging platform built using Ruby on Rails with the help of Paiza Cloud IDE
 ## Alternative Platforms :
 * *AWS Cloud9* is another popular cloud-based **Integrated Development Environment (IDE)**
 
-## Let's get started :
+# Let's get started :
 
-### Create a Blank Rails App -
+## Create a Blank Rails App -
 * After signing up to the cloud service with the credentials (mail or username and password) create a new server.
 * Then go to the terminal and create a blank rails app using the following command :
 
@@ -24,7 +24,7 @@ rails new blog
 
 The dependencies will take some minutes to install.
 
-### Changing the database engine's version to the required version - 
+## Changing the database engine's version to the required version - 
 * Inside the main Rails folder "blog" , there will be "gemfile"
 * Inside that file replace the following line :
 ```
@@ -45,7 +45,7 @@ bundle install
 bundle update
 ```
 
-### Activating the Server :
+## Activating the Server :
 The server can be activated by any one of the following commands :
 ```
 rails server -b $IP -p $PORT
@@ -61,7 +61,12 @@ rails server
 rails s
 ```
 
+## Creating Blogposts
+```
+rails generate scaffold Post title:string body:text
 
+```
+Rails will create a bunch of folders with functionalities in the app directory.
 
 ## License
 
