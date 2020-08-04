@@ -61,7 +61,7 @@ rails server
 rails s
 ```
 
-## Creating Blogposts
+## Creating Blog Posts
 ```
 rails generate scaffold Post title:string body:text
 
