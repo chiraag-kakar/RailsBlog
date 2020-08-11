@@ -68,6 +68,20 @@ rails generate scaffold Post title:string body:text
 ```
 Rails will create a bunch of folders with functionalities in the app directory.
 
+## Modifying Database
+```
+rake db:migrate
+```
+
+## Restarting the server
+```
+rails s -b $IP -p $PORT
+```
+
+
+
+The database thus gets modified so that we can store blog posts.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
