@@ -1,5 +1,7 @@
 # RailsBlog
-A Blogging platform built using Ruby on Rails with the help of Paiza Cloud IDE
+A Blogging platform built using Ruby on Rails with the help of Paiza Cloud IDE.
+
+                                            😃Hit that ⭐ button to show some ❤️
 
 ## Inroduction to the Platform :
 * The RailsBlog is built upon the [Paiza Cloud Platform](https://paiza.cloud/en/).
